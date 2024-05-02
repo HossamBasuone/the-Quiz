@@ -1,0 +1,32 @@
+.h1 {
+    background-color: beige;
+    font-size:59px;
+font-weight: bold;
+color: #939;
+}
+.body   
+{
+    background-color: bisque;
+}
+.add{
+    font-size: 40px;
+    padding: 10px 59px;
+    max-width:fit-content;
+    background-color: burlywood;
+}
+.question{
+    background-color: #3493;
+    font-size: 50px;
+    margin: 20px 0px ;
+    font-weight: bold;
+}
+.sumbit{
+
+    background-color: brown;
+    font-size: 40px;
+    margin:0px 30px;
+    padding: 10px 70px;
+}
+.answer{
+    font-size: 24px;
+}

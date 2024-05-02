@@ -1,0 +1,18 @@
+.body{
+    background-color: bisque;
+}
+
+.done{
+    font-size: 90px;
+padding: 100px;
+margin: 50px    ;
+font-style: italic;
+background-color: blueviolet;
+}
+.maker{
+    margin: 50px;
+    font-size: 90px;
+    padding: 100px;
+    font-style: oblique;
+    background-color: red;
+}
