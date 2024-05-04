@@ -56,14 +56,13 @@ function submit() {
             obj.answers.push(answerObj);
         }
         data.push(obj);
+        
     }
 
-    console.log(data);
 
     localStorage.setItem("myKey",JSON.stringify(data));
    let test =  localStorage.getItem("myKey");
    console.log(JSON.parse(test));
-   let thetest =  localStorage.getItem("myKey");
-   console.log(JSON.parse(thetest));
+
     
 }
