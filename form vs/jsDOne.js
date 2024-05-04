@@ -1,4 +1,9 @@
-const questions = [
+let test1 =  localStorage.getItem("myKey");
+console.log(JSON.parse(test1));
+let jsonObj=JSON.parse(test1);
+
+
+let questions = [
   {
     question: "which is largest animal in the world?",
 
@@ -49,8 +54,9 @@ const questions = [
       { text: "shri", correct: false },
     ],
   },
+  
 ];
-
+questions.push(jsonObj);
 
 
 function createQuestion(questionObject, i) {
